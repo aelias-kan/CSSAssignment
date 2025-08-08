@@ -1,0 +1,41 @@
+body{
+    font-family: system-ui;
+    font-size: 18px;
+}
+header
+{
+    background-color: darkgray;
+}
+nav
+{
+    background-color: cadetblue;
+    text-align: center;
+}
+main
+{
+    background-color: yellow;
+    font-size: 16px;
+}
+
+footer
+{
+    font-size: 16px;
+    background-color: gray;
+}
+h1
+{
+    font-family: sans;
+    text-align: center;
+}
+li
+{
+        display: inline;
+        font-size: 20px;
+        margin-right: 250px;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+p{
+    line-height: 30px;
+}
