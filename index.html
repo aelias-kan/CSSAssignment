@@ -1,43 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Springtime In Michigan</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Calm Corner — Home</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="neighbour.html">Neighborhood Walks</a></li>
-        <li><a href="parks.html">Walks in the Park</a></li>
-      </ul>
-    </nav>
-    <img src="images/beacongalloppark.jpeg" width="200" alt="Brown Labradoodle sitting next to a statue.">
-    <h1>Springtime in Michigan</h1>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav id="main-nav" class="main-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <main>
-    <p>Springtime in <a href="https://www.michigan.org/city/ann-arbor">Ann Arbor</a> is a beautiful time. Even though
-      it can be chilly at times, it is nice to walk my dog Bacon. This site includes some pictures I have taken on
-      these walks. </p>
 
-    <p>Sometimes we walk around the neighborhood, other times we make it to the woods. Ann Arbor also has some
-      beautiful lakes and rivers including the <a
-        href="https://www.annarbor.org/things-to-do/recreation-outdoors/huron-river/">Huron River Watertrail</a> and
-      the <a href="https://www.a2gov.org/departments/Parks-Recreation/parks-places/argo/pages/default.aspx">Argo Park
-        Cascades</a>.</p>
+  <main id="main" tabindex="-1">
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Welcome to Calm Corner</h1>
+        <p>The Calm Corner is a serene escape designed to help you slow down, breathe, and reconnect with yourself. Whether you’re feeling stressed, overwhelmed, or simply in need of a moment of quiet, this space offers soothing visuals, gentle music, and uplifting thoughts to restore your balance.</p>
+        <h1>Tools and Methods </h1>
+        <p>Simple, accessible layout demonstrating CSS skills: skip link, flex, grid, box-model, hover, and more.</p>
+        <p><a class="cta" href="gallery.html">View Gallery</a></p>
+      </div>
+      <div class="hero-image">
+        <img style="width: 200px; height: 200px;" src="images/hero.jpg" alt="Sunlit trees and pathway">
+      </div>
+    </section>
 
+    <section class="features container">
+      <article class="card">
+        <h2>Accessible</h2>
+        <p>Semantic HTML, keyboard accessible nav and skip link.</p>
+      </article>
+      <article class="card">
+        <h2>Responsive</h2>
+        <p>Grid and flexbox for a mobile-first layout.</p>
+      </article>
+      <article class="card">
+        <h2>Stylish</h2>
+        <p>Box-model image styling and hover transitions.</p>
+      </article>
+      <article class="card">
+        <h2>Validated</h2>
+        <p>Designed to pass W3C validation & WAVE accessibility checks.</p>
+      </article>
+    </section>
   </main>
-  <footer>
-    <p>This page was originally created by Colleen van Lent for the <a
-        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
-      Specialization. Students are invited to make changes.</p>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <p>&copy; 2025 Calm Corner — Built for class assignment</p>
+    </div>
   </footer>
-
 </body>
-
 </html>

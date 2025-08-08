@@ -1,41 +1,64 @@
-body{
-    font-family: system-ui;
-    font-size: 18px;
-}
-header
-{
-    background-color: darkgray;
-}
-nav
-{
-    background-color: cadetblue;
-    text-align: center;
-}
-main
-{
-    background-color: yellow;
-    font-size: 16px;
+/* Reset default browser padding and margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-footer
-{
-    font-size: 16px;
-    background-color: gray;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
 }
-h1
-{
-    font-family: sans;
-    text-align: center;
+
+/* Header */
+header {
+  background: darkgray;
+  padding: 10px 0;
 }
-li
-{
-        display: inline;
-        font-size: 20px;
-        margin-right: 250px;
-        width: 100%;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-p{
-    line-height: 30px;
+
+header h1 {
+  text-align: center;
+  color: white;
+}
+
+/* Navigation */
+nav {
+  background-color: cadetblue;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #2f6f73;
+}
+
+/* Main content */
+main {
+  background-color: yellow;
+  font-size: 16px;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  font-size: 16px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
